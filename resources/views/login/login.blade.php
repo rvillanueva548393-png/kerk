@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SubWFour</title>
+  <title>Elenagin</title>
   <link rel="stylesheet" href="{{ asset('css/login.css') }}">
 </head>
 <body>
   <div class="login-wrapper">
     <div class="login-box">
       <div class="login-header">
-        <h1>Elenagin</h1>
+        <h1>Login</h1>
         <p>[ Insert Text ]</p>
       </div>
 
@@ -35,10 +35,10 @@
             </div>
         @endif
 
-      <div class="login-footer">
+     <!-- <div class="login-footer">
         <img src="{{ asset('images/Sample.png') }}" alt="Morel Logo">
-      </div>
+      </div>-->
     </div>
   </div>
-</body>
+</body> 
 </html>

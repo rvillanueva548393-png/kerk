@@ -203,7 +203,7 @@
         </div>
     </div>
 
-    <!-- Bottom Panels -->
+    <!-- Bottom Panels 
     <div class="dash-bottom">
         <div class="panel">
             <div class="panel-head">
@@ -243,7 +243,7 @@
                     Stock-Out
                 </a>
             </div>
-        </div>
+        </div>-->
 
         <div class="panel">
             <div class="panel-head">

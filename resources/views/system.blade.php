@@ -19,7 +19,7 @@
 
 <div class="sidebar" id="sidebar">
     <div class="sidebar-logo">
-        <img src="{{ asset('images/kerk.jpg') }}" alt="Logo">
+        <img src="{{ asset('images/inventory.png') }}" alt="Logo">
     </div>
     <center>
         <ul>
@@ -28,8 +28,8 @@
             @endif
             <li><a href="{{ route('stock_in.index') }}" class="nav-link"><i class="bi bi-dropbox"></i> Stock-In</a></li>
             <li><a href="{{ route('inventory.index') }}" class="nav-link"><i class="bi bi-inboxes-fill"></i> Inventory</a></li>
-            <li><a href="{{ route('services.index') }}" class="nav-link"><i class="bi bi-wrench"></i> Service</a></li>
-            <li><a href="{{ route('bookings.index') }}" class="nav-link"><i class="bi bi-person-lines-fill"></i> Bookings</a></li>
+          <!--  <li><a href="{{ route('services.index') }}" class="nav-link"><i class="bi bi-wrench"></i> Service</a></li>
+            <li><a href="{{ route('bookings.index') }}" class="nav-link"><i class="bi bi-person-lines-fill"></i> Bookings</a></li>-->
             <li><a href="{{ route('suppliers.index') }}" class="nav-link"><i class="bi bi-person-fill-down"></i> Suppliers</a></li>
             @if($user->role === 'admin')
                 <li><a href="{{ route('reports.index') }}" class="nav-link"><i class="bi bi-list-columns"></i> Reports</a></li>
@@ -170,7 +170,7 @@
 </div>
 
 <div class="footer">
-    <p>&copy; 2025 SubWFour. All rights reserved.</p>
+    <p>&copy; Elenagin. All rights reserved.</p>
 </div>
 
 @yield('scripts')
